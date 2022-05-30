@@ -17,8 +17,8 @@ a{
 /* code for the narbar */
 
 #narbar{
-background-color: rgb(203, 241, 145);
-color: black;
+background-color: rgb(243, 204, 76);
+color: white;
 top: 0;
 position: sticky;
 display: flex;
@@ -34,22 +34,22 @@ ul{
   
 }
 #narbar ul li a{
-  color: blue;
+  color: white;
   padding: 0.75rem;
   margin: 0 0.2rem;
 }
 
 #narbar ul li a:hover{
-background:rgb(149, 248, 210);
+background:rgb(201, 39, 39);
 border-radius: 5px;
 }
 
 /* css code for the header showcase */
 
 #showcase{
-  background: url(../img/PINK.jpg)no-repeat center center/cover;
+  background: url(../img/photo.jpeg)no-repeat center center/cover;
   height: 100vh;
-  color: rgb(15, 7, 7);
+  color: rgb(255, 239, 96);
 }
 #showcase .show-content{
   display: flex;
@@ -85,7 +85,7 @@ border-radius: 5px;
   margin: 0 auto;
   display: inline-block;
   color: rgb(242, 238, 245);
-  background: rgb(7, 7, 7);
+  background: rgb(250, 198, 53);
   padding: 0.5rem,2rem;
   width: 160px;
   border: none;
@@ -94,4 +94,81 @@ border-radius: 5px;
 
 .btn:hover{
   background: rgb(201, 39, 39);
+}
+
+/* section:what we do */
+.items{
+  display: flex;
+  padding: 16px;
+}
+
+#what .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 16px;
+}
+#what .items .item i{
+  background: rgb(248, 179, 50);
+  color: black;
+  padding: 16px;
+  border-radius: 100px;
+}
+/* section:who we are */
+
+#who{
+  display: flex;
+}
+
+#who div{
+  flex: 1;
+}
+
+#who .who-img{
+background: url(../img/nathan.jpg) no-repeat center center/cover;
+}
+
+.bg-light{
+  color: aliceblue;
+  background: #333;
+}
+.bg-dark{
+  color: #f4f4f4;
+  background: #333;
+}
+
+ .p-1{
+       padding: 1.5rem;
+}
+
+.p-2{
+  padding: 2rem;
+}
+
+.p-3{
+  padding: 3rem;
+}
+
+.list{
+  margin: 0.5rem,0;
+  list-style: none;
+}
+
+.list li{
+  padding: o.5rem 0;
+  border-bottom:#f444 dotted 1px;
+}
+
+/* clients */
+#cleints{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients .items img{
+  display: block;
+  margin: auto 15px;
+  width: 90px;
+  height: 90px;
 }
