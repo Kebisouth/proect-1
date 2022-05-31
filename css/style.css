@@ -177,6 +177,7 @@ background: url(../img/nathan.jpg) no-repeat center center/cover;
 .list{
   margin: 0.5rem,0;
   list-style: none;
+  display: block;
 }
 
 .list li{
@@ -224,4 +225,4 @@ background: url(../img/nathan.jpg) no-repeat center center/cover;
   margin: 0.75rem;
 }
 
-
+/*  */
